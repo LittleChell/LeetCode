@@ -1,4 +1,4 @@
-### 26	Remove Duplicates from Sorted Array
+### 35	Search Insert Position
 
 	class Solution(object):
     def removeDuplicates(self, nums):
