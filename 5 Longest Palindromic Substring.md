@@ -2,6 +2,8 @@
 
 	1、假设当前最小子字符串str是一个Palindrome(aba or aa)
 	2、轮到下一个字母z时，如果str两边分别加上z和右边界的右边一个字母也能组成Palindrome，则更新最小子字符串Palindrome，更新右边界和跨度
+
+	discuss上面的比较多的方式就是下面的方式，意思大致类似，都是遍历一遍str，每个str都找一下Palindrome，然后取最长那一个。
 	
 
 	class Solution(object):
